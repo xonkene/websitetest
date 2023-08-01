@@ -1,0 +1,226 @@
+/*   green color #00673a   red #ed1a20*/
+/*==================================*/
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    
+    padding: 79px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    z-index: 99;
+    right: 0;
+    
+  }
+  #navbar-right2
+  {
+    overflow: hidden;
+    background-color: #ffffff;
+    
+
+    padding: 0px 00px 0px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    z-index: 99;
+  }
+  #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 25px;
+    border-radius: 4px;
+    
+  font-weight: bold;
+  transition: 0.4s;
+  }
+  
+  #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  #navbar a:hover {
+    background-color: #00673ad7;
+    color: white;
+  }
+  
+
+  
+  #navbar-right {
+    
+    float:right;
+  }
+
+  
+  
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+#logo1
+{
+    
+    width: 424px;
+  height: auto;
+  transition: width 0.4s ease;
+}
+
+
+footer {
+  background-color: #00673a;
+  
+ text-align: left;
+ height: auto;
+
+}
+footer a
+{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-content {
+   display:flex;
+   justify-content: space-between;
+ /* Add styles for the content inside the footer */
+}
+
+.socialmedialogo
+{
+  float: right;
+  margin: 10px;
+  margin-top: 5%;
+  width:  30%;
+  height: auto;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+
+
+
+.footer-box
+{
+  padding-left: 10px;
+  /*outline-style: dotted;*/
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+  
+  
+.footer-box1 {
+    float:left;
+  
+    width:10%;
+    height:auto;
+}
+.footer-box4 {
+  float:left;
+
+  width:20%;
+  height:auto;
+}
+.footer-box2 {
+    float:left;
+   
+    width:30%;
+    height:auto;
+}
+.footer-box5 {
+  float:left;
+ 
+  width:30%;
+  height:auto;
+}
+
+.footer-box3{
+    float:right;
+ 
+    width:10%;
+    height:auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+  
+.logo-box
+{
+  
+  padding: 0px 10px 0px 20px;
+}
+  
+ 
+
+#abschnitt1
+{
+
+    background-image: url('pictures/alle_tagderoffenentür9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  /*  background-image: url('pictures/alle_tagderoffenentür9.jpg');
+  background-repeat: no-repeat;*/
+}
+
+.abschnitte
+{
+  color: white;
+    text-align: center;
+    height: 20cm;
+}
+.abschnittt1
+{
+  height: 21cm;
+}
+
+.abschnitte h1
+{
+  font-size:80px;
+}
+.abschnitte h2
+{
+  font-size:60px;
+}
+.abschnitte p
+{
+  color: #00673a;
+  font-size:50px;
+}
+
+.scrollLink
+{
+  margin: 0px 10px 0px 20px;
+}
