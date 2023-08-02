@@ -1,0 +1,314 @@
+div
+{
+  outline: 1px solid rgba(97, 99, 0, 0);/*<-- Box Outline for footer*/
+}
+
+/*   green color #00673a   red #ed1a20*/
+/*==================================*/
+
+* {box-sizing: border-box;}
+
+html 
+{
+    scroll-behavior: smooth;
+
+}
+
+body { 
+ 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    
+    padding: 79px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    z-index: 99;
+    right: 0;
+    
+  }
+  #navbar-right2
+  {
+    overflow: hidden;
+    background-color: #ffffff;
+    
+
+    padding: 0px 00px 0px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    z-index: 99;
+  }
+  #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 25px;
+    border-radius: 4px;
+    
+  font-weight: bold;
+  transition: 0.4s;
+  }
+  
+  #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  #navbar a:hover {
+    background-color: #00673ad7;
+    color: white;
+  } 
+  #navbar-right {
+    
+    float:right;
+  } 
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+#logo1
+{
+    
+    width: 424px;
+  height: auto;
+  transition: width 0.4s ease;
+}
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+ 
+
+#abschnitt1
+{
+
+    background-image: url('pictures/alle_tagderoffenentür6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  /*  background-image: url('pictures/alle_tagderoffenentür9.jpg');
+  background-repeat: no-repeat;*/
+}
+#abschnitt2
+{
+  text-align: center;
+}
+
+.abschnitte
+{
+  color: white;
+    text-align: center;
+    height: auto;
+    
+}
+.abschnittt1
+{
+  height: 21cm;
+}
+
+.abschnitte h1
+{
+  font-size:80px;
+}
+.abschnitte h2
+{
+  font-size:60px;
+}
+.abschnitte p
+{
+  margin: 0px;
+  color: #00673a;
+  font-size:50px;
+}
+
+.scrollLink
+{
+  margin: 0px 10px 0px 20px;
+}
+/********LEISTUNGEN*************************************************************/
+
+.Leistungen-outer
+{
+  display: flex;
+  padding: 30px;
+}
+
+.Leistung-inner
+{
+  width: 33%;
+  margin-right: 30px;
+  box-shadow: 0px 0px 9px 6px rgba(128,128,128,0.22);
+  border-radius: 25px;
+  overflow: hidden;
+}
+.Leistung-inner h4
+{
+  font-size: 30px;
+  color: black;
+  
+
+}
+.Leistung-inner p
+{
+  text-align:justify;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+
+}
+
+.Leistung-img
+{
+ width: 40%px;
+ height: auto;
+  /*overflow: hidden;
+  margin: 20px;
+  margin-right: 40px;
+  padding: 0px 10px 0px 20px;*/
+}
+.Leistung-img img
+{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/********FOOTER*****************************************************************/
+.footer-box
+{
+  padding-left: 10px;
+  /*outline-style: dotted;*/
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+  
+  
+.footer-box1 {
+    float:left;
+  
+    width:7%;
+    height:auto;
+}
+.footer-box2 {
+  float:left;
+
+  width:43%;
+  height:auto;
+}
+.footer-box3 {
+    float:left;
+   
+    width:20%;
+    height:auto;
+}
+.footer-box4 {
+  float:left;
+ 
+  width:20%;
+  height:auto;
+}
+
+.footer-box5{
+    float:right;
+ 
+    width:10%;
+    height:auto;
+
+    
+}
+/*IG Facebook logos*/
+
+.logo-box
+{
+ width: 40px;
+ height: 40px;
+  overflow: hidden;
+  margin: 20px;
+  margin-right: 40px;
+  /*padding: 0px 10px 0px 20px;*/
+}
+.logo-box img
+{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.top-logo-box
+{
+  float: right;
+}
+/*sChRiFt im Footer*/
+.adress-buro
+{
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 13px;
+}
+.adress-platz
+{
+  /*float: left;*/
+  margin-bottom: 13px;
+}
+
+footer {
+  background-color: #00673a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ text-align: left;
+ height: auto;
+
+}
+footer a
+{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-content {
+  
+ 
+  
+   display:flex;
+   justify-content: space-between;
+   
+   
+ /* Add styles for the content inside the footer */
+}
